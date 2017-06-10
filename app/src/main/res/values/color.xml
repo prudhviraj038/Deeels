@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="aa_app_green">#83AD3C</color>
+    <color name="aa_menu_text_selected">#7F000000</color>
+    <color name="app_theme_color">#851f83</color>
+</resources>

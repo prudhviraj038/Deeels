@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <android.support.design.widget.TabLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:id="@+id/view35"
+                style="@style/TabLayoutTextStyle" />
+
+            <view
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                class="com.astuetz.PagerSlidingTabStrip"
+                android:id="@+id/view3"
+                android:visibility="gone" />
+
+            <view
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                class="com.booking.rtlviewpager.RtlViewPager"
+                android:id="@+id/view4" />
+        </LinearLayout>
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/progressBar3"
+            android:layout_centerInParent="true"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+</LinearLayout>
